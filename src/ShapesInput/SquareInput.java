@@ -10,7 +10,7 @@ public class SquareInput extends ShapeInput implements IInputVariables {
 
     public double[] getParams(BufferedReader br) {
         do {
-            System.out.print("Enter radius circle: ");
+            System.out.print("Enter square side: ");
             double[] params = getProperties(inputString(br),1);
             if(params.length==1)
                 return params;

@@ -11,6 +11,6 @@ public class Square extends Rectangle {
 
     @Override
     public String toString(){
-        return String.format("Rectangle:\n\tA =%.2f",sideA);
+        return String.format("Square:\n\tA =%.2f",sideA);
     }
 }
