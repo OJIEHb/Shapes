@@ -1,6 +1,6 @@
 package ShapesInput;
 
-import Interfaces.IInputVaries;
+import Interfaces.IInputVariables;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
@@ -9,9 +9,9 @@ import java.io.InputStreamReader;
  */
 
 public  class InputParams{
-    IInputVaries iInputVaries;
+    IInputVariables iInputVaries;
 
-    public InputParams(IInputVaries input){
+    public InputParams(IInputVariables input){
         iInputVaries=input;
     }
 
